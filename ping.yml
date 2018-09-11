@@ -4,7 +4,7 @@
   tasks:
   - name: Ping a server using the ping module
     ping:
-      data: pong
+      data: pong from Ansible
     register: ping_answer
   - name: Output the value of the ping answer
     debug:
